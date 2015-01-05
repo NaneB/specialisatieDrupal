@@ -1,0 +1,45 @@
+5.okt: First installation:
+	
+	https://www.youtube.com/watch?v=YsCWlpHg8DE
+
+	Create empty database ‘name’
+	download drupal 7.32
+	unzip in php (xampp)
+	drupal>sites>default
+	copy default.settings.php > settings.php (error here)
+	localhost/drupal > doorloop configuratie
+
+	bij fout best drupal opnieuw unzippen en vorige db droppen en nieuwe maken
+
+	main errors:  Maximum execution time of 30 seconds exceeded 
+	fix: https://www.drupal.org/node/66105#comment-247331
+
+	“I simply edited sites/default/settings.php and added the following line:ini_set('max_execution_time', 0);”
+
+11 okt: Vakjargon uitgepluist op http://drupal.be/
+
+18 nov: Op zoek naar mooie drupal templates http://themeforest.net/category/cms-themes/drupal/creative
+					    http://www.creativebloq.com/drupal/best-free-drupal-themes-7133704
+	en eerste test templates gebruiken
+
+25 nov: Mooiste drupal sites. http://www.awwwards.com/websites/drupal/ en http://www.creativebloq.com/drupal/examples-of-drupal-websites-7133440
+
+1 dec: Second installation:
+	
+	via nieuwe installatie xampp (https://www.apachefriends.org/download_success.html) op deze site gekomen: https://bitnami.com/
+	Installatie op nieuwe computer op twee minuten geregeld.
+
+15 dec: Uitpluizen themes https://www.youtube.com/watch?v=dS4JR0BbKO8
+
+23 dec: Hoe best beginnen aan eigen theme? 
+			http://drupal.be/documentatie/drupal-theming
+			http://www.slideshare.net/evolvingweb/responsive-design-with-zen
+			https://www.drupal.org/project/zen
+
+27 dec: start using zen: https://www.youtube.com/watch?v=y-IXpbdgA3A
+
+3 jan: creating own subtheme 
+		https://www.youtube.com/watch?v=9aPyKE_eu6c
+		https://www.youtube.com/watch?v=Rb2vaI2RUHo
+		http://www.carettedonny.be/template-maken-voor-drupal-7
+		http://codekarate.com/daily-dose-of-drupal/creating-drupal-7-sub-theme
